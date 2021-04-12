@@ -1,17 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* product_multi_ean
+# 	* product_multi_ean
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: <>\n"
+"POT-Creation-Date: 2021-04-12 14:23+0000\n"
+"PO-Revision-Date: 2021-04-12 14:23+0000\n"
+"Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+
+#. module: product_multi_ean
+#: model:ir.model.fields,field_description:product_multi_ean.field_product_product__barcode
+#: model:ir.model.fields,field_description:product_multi_ean.field_product_template__barcode
+#: model_terms:ir.ui.view,arch_db:product_multi_ean.product_search_form_view_multi_ean13
+msgid "Barcode (EAN)"
+msgstr ""
 
 #. module: product_multi_ean
 #: model:ir.model.fields,field_description:product_multi_ean.field_product_ean13__create_uid
@@ -30,10 +39,13 @@ msgstr ""
 
 #. module: product_multi_ean
 #: model:ir.model.fields,field_description:product_multi_ean.field_product_ean13__name
+msgid "EAN"
+msgstr ""
+
+#. module: product_multi_ean
 #: model:ir.model.fields,field_description:product_multi_ean.field_product_product__ean13_ids
-#: model_terms:ir.ui.view,arch_db:product_multi_ean.product_normal_form_view_multi_ean13
-#: model_terms:ir.ui.view,arch_db:product_multi_ean.product_search_form_view_multi_ean13
-msgid "EAN13"
+#: model:ir.model.fields,field_description:product_multi_ean.field_product_template__ean13_ids
+msgid "EANs"
 msgstr ""
 
 #. module: product_multi_ean
@@ -43,6 +55,7 @@ msgstr ""
 
 #. module: product_multi_ean
 #: model:ir.model.fields,help:product_multi_ean.field_product_product__barcode
+#: model:ir.model.fields,help:product_multi_ean.field_product_template__barcode
 msgid "International Article Number used for product identification."
 msgstr ""
 
@@ -67,14 +80,14 @@ msgid "List of EAN13 for a product."
 msgstr ""
 
 #. module: product_multi_ean
-#: model:ir.model.fields,field_description:product_multi_ean.field_product_product__barcode
-msgid "Main EAN13"
-msgstr ""
-
-#. module: product_multi_ean
 #: model:ir.model,name:product_multi_ean.model_product_product
 #: model:ir.model.fields,field_description:product_multi_ean.field_product_ean13__product_id
 msgid "Product"
+msgstr ""
+
+#. module: product_multi_ean
+#: model:ir.model,name:product_multi_ean.model_product_template
+msgid "Product Template"
 msgstr ""
 
 #. module: product_multi_ean
@@ -83,8 +96,7 @@ msgid "Sequence"
 msgstr ""
 
 #. module: product_multi_ean
-#: code:addons/product_multi_ean/models/product_product.py:39
+#: code:addons/product_multi_ean/models/product_product.py:0
 #, python-format
 msgid "The EAN13 Barcode \"%s\" already exists for product \"%s\""
 msgstr ""
-

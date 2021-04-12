@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
     <record id="product_normal_form_view_multi_ean13" model="ir.ui.view">
-        <field name="name">product.normal.form.multi.ean13</field>
+        <field name="name">product.product.form.multi.ean13</field>
         <field name="model">product.product</field>
         <field name="inherit_id" ref="product.product_normal_form_view" />
         <field name="arch" type="xml">
@@ -10,7 +10,46 @@
             </field>
             <field name="barcode" position="after">
                 <field name="ean13_ids">
-                    <tree string="EAN13" editable="bottom">
+                    <tree editable="bottom">
+                        <field name="sequence" widget="handle" />
+                        <field name="name" />
+                    </tree>
+                </field>
+            </field>
+        </field>
+    </record>
+    <record id="product_variant_easy_edit_view" model="ir.ui.view">
+        <field name="name">product.product.form.multi.ean13</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_variant_easy_edit_view" />
+        <field name="arch" type="xml">
+            <field name="barcode" position="attributes">
+                <attribute name="readonly">True</attribute>
+            </field>
+            <field name="barcode" position="after">
+                <field name="ean13_ids">
+                    <tree editable="bottom">
+                        <field name="sequence" widget="handle" />
+                        <field name="name" />
+                    </tree>
+                </field>
+            </field>
+        </field>
+    </record>
+    <record id="product_template_only_form_view_multi_ean13" model="ir.ui.view">
+        <field name="name">product.template.form.multi.ean13</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view" />
+        <field name="arch" type="xml">
+            <field name="barcode" position="attributes">
+                <attribute name="readonly">True</attribute>
+            </field>
+            <field name="barcode" position="after">
+                <field
+                    name="ean13_ids"
+                    attrs="{'invisible': [('product_variant_count', '&gt;', 1)]}"
+                >
+                    <tree editable="bottom">
                         <field name="sequence" widget="handle" />
                         <field name="name" />
                     </tree>
@@ -24,7 +63,7 @@
         <field name="inherit_id" ref="product.product_search_form_view" />
         <field name="arch" type="xml">
             <field name="name" position="after">
-                <field name="barcode" string="EAN13" />
+                <field name="barcode" string="Barcode (EAN)" />
             </field>
         </field>
     </record>

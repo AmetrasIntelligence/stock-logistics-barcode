@@ -13,10 +13,10 @@ class ProductEan13(models.Model):
     _description = "List of EAN13 for a product."
     _order = "sequence, id"
 
-    name = fields.Char(string="EAN13", size=13, required=True,)
+    name = fields.Char(string="EAN", size=13, required=True,)
     sequence = fields.Integer(string="Sequence", default=0,)
     product_id = fields.Many2one(
-        string="Product", comodel_name="product.product", required=True,
+        string="Product", comodel_name="product.product", ondelete="cascade"
     )
 
     @api.constrains("name")
@@ -34,26 +34,32 @@ class ProductProduct(models.Model):
     _inherit = "product.product"
 
     ean13_ids = fields.One2many(
-        comodel_name="product.ean13", inverse_name="product_id", string="EAN13",
+        comodel_name="product.ean13", inverse_name="product_id", string="EANs",
     )
     barcode = fields.Char(
-        string="Main EAN13",
+        string="Barcode (EAN)",
         compute="_compute_barcode",
         store=True,
         inverse="_inverse_barcode",
         compute_sudo=True,
         inverse_sudo=True,
+        size=13,
     )
 
     @api.depends("ean13_ids")
     def _compute_barcode(self):
         for product in self:
-            product.barcode = product.ean13_ids[:1].name
+            if product.ean13_ids:
+                product.barcode = product.ean13_ids.sorted(lambda e: e.sequence)[0].name
+            else:
+                product.barcode = None
 
     def _inverse_barcode(self):
         for product in self:
             if product.ean13_ids:
-                product.ean13_ids[:1].write({"name": product.barcode})
+                product.ean13_ids.sorted(lambda e: e.sequence)[0].write(
+                    {"name": product.barcode}
+                )
             else:
                 self.env["product.ean13"].create(self._prepare_ean13_vals())
 
@@ -81,3 +87,14 @@ class ProductProduct(models.Model):
             for x in domain
         ]
         return domain
+
+
+class ProductTemplate(models.Model):
+    _inherit = "product.template"
+
+    barcode = fields.Char(
+        string="Barcode (EAN)", related="product_variant_ids.barcode", size=13
+    )
+    ean13_ids = fields.One2many(
+        string="EANs", related="product_variant_ids.ean13_ids", readonly=False,
+    )
