@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-barcode] 13.0/barcodes_generator_abstract/i18n/barcodes_generator_abstract.pot\n"
 "X-Crowdin-File-ID: 5782\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2022-08-06 22:04\n"
+"PO-Revision-Date: 2023-08-02 09:34\n"
 
 #. module: barcodes_generator_abstract
 #: model:ir.model.fields,help:barcodes_generator_abstract.field_barcode_generate_mixin__generate_type
@@ -70,7 +70,7 @@ msgstr "Vérifie cela pour générer automatiquement un code à barres lors de l
 #. module: barcodes_generator_abstract
 #: model:ir.model.fields,field_description:barcodes_generator_abstract.field_barcode_generate_mixin__display_name
 msgid "Display Name"
-msgstr "Nom d'affichage"
+msgstr ""
 
 #. module: barcodes_generator_abstract
 #: model:ir.model,name:barcodes_generator_abstract.model_barcode_generate_mixin
@@ -123,7 +123,7 @@ msgstr "Si 'Générer Type' est défini, mentionnez le modèle associé à cette
 #. module: barcodes_generator_abstract
 #: model:ir.model.fields,field_description:barcodes_generator_abstract.field_barcode_generate_mixin____last_update
 msgid "Last Modified on"
-msgstr "Dernière modification le"
+msgstr ""
 
 #. module: barcodes_generator_abstract
 #: model:ir.model.fields.selection,name:barcodes_generator_abstract.selection__barcode_rule__generate_type__no
