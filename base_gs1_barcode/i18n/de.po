@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-barcode] 13.0/base_gs1_barcode/i18n/base_gs1_barcode.pot\n"
 "X-Crowdin-File-ID: 5788\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:04\n"
+"PO-Revision-Date: 2023-08-02 09:34\n"
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.ACTIVE_POTENCY
@@ -273,12 +273,12 @@ msgstr "Coupon Code ID (Nord-Amerika)"
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode__create_uid
 msgid "Created by"
-msgstr "Erstellt von"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode__create_date
 msgid "Created on"
-msgstr "Erstellt am"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.CUSTOMER_PART
@@ -303,7 +303,7 @@ msgstr "Datentyp"
 #. module: base_gs1_barcode
 #: model:ir.model.fields.selection,name:base_gs1_barcode.selection__gs1_barcode__data_type__date
 msgid "Date"
-msgstr "Datum"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.DATE_PRODUCTION
@@ -318,17 +318,17 @@ msgstr "Dezimaltrenner"
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode__name
 msgid "Description"
-msgstr "Produktbeschreibung"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode__display_name
 msgid "Display Name"
-msgstr "Anzeigename"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.DUE_DATE
 msgid "Due Date"
-msgstr "Fälligkeitsdatum"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.EXPIRATION_DATE
@@ -405,7 +405,7 @@ msgstr "Gruppentrenner"
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.PHYSICAL_LOCATION_ID
@@ -475,17 +475,17 @@ msgstr "International Bank Account Number (IBAN)"
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode____last_update
 msgid "Last Modified on"
-msgstr "Zuletzt geändert am"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert von"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode__write_date
 msgid "Last Updated on"
-msgstr "Zuletzt aktualisiert am"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.VARIATION
@@ -695,7 +695,7 @@ msgstr "Produkt-Nettogewicht (Pfund)"
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.VARIANT
 msgid "Product Variant"
-msgstr "Produktvariante"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.VOLUME_FT3
@@ -840,7 +840,7 @@ msgstr "UN/ECE Klassifizierung für Fleischrümpfe und -abschnitte"
 #. module: base_gs1_barcode
 #: model:ir.model,name:base_gs1_barcode.model_res_users
 msgid "Users"
-msgstr "Benutzer"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.EXPIRATION_DATE_AND_TIME
