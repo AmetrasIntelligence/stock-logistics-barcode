@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-barcode] 13.0/stock_picking_product_barcode_report/i18n/stock_picking_product_barcode_report.pot\n"
 "X-Crowdin-File-ID: 5802\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2023-02-09 12:11\n"
+"PO-Revision-Date: 2023-08-02 09:34\n"
 
 #. module: stock_picking_product_barcode_report
 #: model_terms:ir.ui.view,arch_db:stock_picking_product_barcode_report.report_label_barcode
@@ -31,7 +31,7 @@ msgstr ""
 #. module: stock_picking_product_barcode_report
 #: model_terms:ir.ui.view,arch_db:stock_picking_product_barcode_report.report_label_barcode
 msgid "Barcode"
-msgstr "Strichcode"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__barcode_format
@@ -42,29 +42,29 @@ msgstr ""
 #. module: stock_picking_product_barcode_report
 #: model_terms:ir.ui.view,arch_db:stock_picking_product_barcode_report.view_stock_barcode_selection_printing
 msgid "Cancel"
-msgstr "Abbrechen"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model,name:stock_picking_product_barcode_report.model_res_company
 msgid "Companies"
-msgstr "Unternehmen"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model,name:stock_picking_product_barcode_report.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfigurationseinstellung"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__create_uid
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__create_uid
 msgid "Created by"
-msgstr "Erstellt von"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__create_date
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__create_date
 msgid "Created on"
-msgstr "Erstellt am"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields.selection,name:stock_picking_product_barcode_report.selection__res_company__barcode_default_format__gs1_128
@@ -76,7 +76,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__display_name
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__display_name
 msgid "Display Name"
-msgstr "Anzeigename"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model_terms:ir.ui.view,arch_db:stock_picking_product_barcode_report.res_config_settings_view_form
@@ -87,7 +87,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__id
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model_terms:ir.ui.view,arch_db:stock_picking_product_barcode_report.view_stock_barcode_selection_printing
@@ -103,19 +103,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print____last_update
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print____last_update
 msgid "Last Modified on"
-msgstr "Zuletzt geändert am"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__write_uid
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert von"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__write_date
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__write_date
 msgid "Last Updated on"
-msgstr "Zuletzt aktualisiert am"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__lot_id
@@ -131,7 +131,7 @@ msgstr ""
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__move_line_id
 msgid "Move"
-msgstr "Verschieben"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__product_print_moves
@@ -141,12 +141,12 @@ msgstr "Bewegungen"
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__picking_ids
 msgid "Picking"
-msgstr "Kommissionierung"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model_terms:ir.ui.view,arch_db:stock_picking_product_barcode_report.view_stock_barcode_selection_printing
 msgid "Print"
-msgstr "Drucken"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model,name:stock_picking_product_barcode_report.model_stock_picking_line_print
@@ -161,12 +161,12 @@ msgstr ""
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__product_id
 msgid "Product"
-msgstr "Produkt"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__quantity
 msgid "Quantity"
-msgstr "Menge"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__label_qty
@@ -181,12 +181,12 @@ msgstr ""
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__uom_id
 msgid "Unit of Measure"
-msgstr "Maßeinheit"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__wizard_id
 msgid "Wizard"
-msgstr "Assistent"
+msgstr ""
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model,name:stock_picking_product_barcode_report.model_stock_picking_print
