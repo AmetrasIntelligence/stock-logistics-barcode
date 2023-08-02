@@ -14,17 +14,17 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-barcode] 13.0/barcodes_generator_location/i18n/barcodes_generator_location.pot\n"
 "X-Crowdin-File-ID: 5784\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:04\n"
+"PO-Revision-Date: 2023-08-02 09:34\n"
 
 #. module: barcodes_generator_location
 #: model_terms:ir.ui.view,arch_db:barcodes_generator_location.view_location_form
 msgid "Barcode"
-msgstr "Strichcode"
+msgstr "Barcode"
 
 #. module: barcodes_generator_location
 #: model:ir.model,name:barcodes_generator_location.model_barcode_rule
 msgid "Barcode Rule"
-msgstr "Strichcode-Regeln"
+msgstr ""
 
 #. module: barcodes_generator_location
 #: model_terms:ir.ui.view,arch_db:barcodes_generator_location.view_location_form
