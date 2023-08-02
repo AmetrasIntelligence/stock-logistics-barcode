@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-barcode] 13.0/base_gs1_barcode/i18n/base_gs1_barcode.pot\n"
 "X-Crowdin-File-ID: 5788\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2022-08-06 22:04\n"
+"PO-Revision-Date: 2023-08-02 09:34\n"
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.ACTIVE_POTENCY
@@ -273,12 +273,12 @@ msgstr ""
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode__create_uid
 msgid "Created by"
-msgstr "Créé par"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode__create_date
 msgid "Created on"
-msgstr "Créé le"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.CUSTOMER_PART
@@ -323,7 +323,7 @@ msgstr ""
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode__display_name
 msgid "Display Name"
-msgstr "Nom d'affichage"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.DUE_DATE
@@ -475,17 +475,17 @@ msgstr ""
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode____last_update
 msgid "Last Modified on"
-msgstr "Dernière modification le"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode__write_uid
 msgid "Last Updated by"
-msgstr "Dernière mise à jour par"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode__write_date
 msgid "Last Updated on"
-msgstr "Dernière mise à jour le"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.VARIATION
@@ -695,7 +695,7 @@ msgstr ""
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.VARIANT
 msgid "Product Variant"
-msgstr "Variante de produit"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.VOLUME_FT3
@@ -840,7 +840,7 @@ msgstr ""
 #. module: base_gs1_barcode
 #: model:ir.model,name:base_gs1_barcode.model_res_users
 msgid "Users"
-msgstr "Utilisateurs"
+msgstr ""
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.EXPIRATION_DATE_AND_TIME
