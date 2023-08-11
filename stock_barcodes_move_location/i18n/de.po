@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-barcode] 13.0/stock_barcodes_move_location/i18n/stock_barcodes_move_location.pot\n"
 "X-Crowdin-File-ID: 5800\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2023-08-02 09:34\n"
+"PO-Revision-Date: 2023-08-11 09:01\n"
 
 #. module: stock_barcodes_move_location
 #: model_terms:ir.ui.view,arch_db:stock_barcodes_move_location.view_wiz_stock_move_location_form_stock_move_location
@@ -95,12 +95,12 @@ msgstr ""
 #. module: stock_barcodes_move_location
 #: model:ir.model.fields,field_description:stock_barcodes_move_location.field_wiz_stock_barcodes_read_move_location__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Zuletzt aktualisiert von"
 
 #. module: stock_barcodes_move_location
 #: model:ir.model.fields,field_description:stock_barcodes_move_location.field_wiz_stock_barcodes_read_move_location__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Zuletzt aktualisiert am"
 
 #. module: stock_barcodes_move_location
 #: model_terms:ir.ui.view,arch_db:stock_barcodes_move_location.view_wiz_stock_move_location_form_stock_move_location
