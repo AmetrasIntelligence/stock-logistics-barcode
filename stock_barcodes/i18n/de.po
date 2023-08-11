@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-barcode] 13.0/stock_barcodes/i18n/stock_barcodes.pot\n"
 "X-Crowdin-File-ID: 5792\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2023-08-10 17:06\n"
+"PO-Revision-Date: 2023-08-11 09:01\n"
 
 #. module: stock_barcodes
 #: model:ir.model.fields,help:stock_barcodes.field_wiz_candidate_picking__state
@@ -333,7 +333,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_inventory__write_uid
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_picking__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Zuletzt aktualisiert von"
 
 #. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_stock_barcodes_read_log__write_date
@@ -343,7 +343,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_inventory__write_date
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_picking__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Zuletzt aktualisiert am"
 
 #. module: stock_barcodes
 #: model_terms:ir.ui.view,arch_db:stock_barcodes.view_inventory_form
@@ -624,7 +624,7 @@ msgstr ""
 #. module: stock_barcodes
 #: model:ir.model,name:stock_barcodes.model_stock_picking
 msgid "Transfer"
-msgstr ""
+msgstr "Bewegung"
 
 #. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_picking__picking_type_code
