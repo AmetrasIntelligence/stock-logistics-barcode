@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-12 14:23+0000\n"
-"PO-Revision-Date: 2023-08-11 09:01\n"
+"PO-Revision-Date: 2023-08-11 10:40\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -27,12 +27,12 @@ msgstr "Strichcode (EAN)"
 #. module: product_multi_ean
 #: model:ir.model.fields,field_description:product_multi_ean.field_product_ean13__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Erstellt von"
 
 #. module: product_multi_ean
 #: model:ir.model.fields,field_description:product_multi_ean.field_product_ean13__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Erstellt am"
 
 #. module: product_multi_ean
 #: model:ir.model.fields,field_description:product_multi_ean.field_product_ean13__display_name
@@ -64,7 +64,7 @@ msgstr "Internationale Artikelnummer zur Produktidentifikation"
 #. module: product_multi_ean
 #: model:ir.model.fields,field_description:product_multi_ean.field_product_ean13____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Zuletzt geändert am"
 
 #. module: product_multi_ean
 #: model:ir.model.fields,field_description:product_multi_ean.field_product_ean13__write_uid
