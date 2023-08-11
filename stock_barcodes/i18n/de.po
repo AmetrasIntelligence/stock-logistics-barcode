@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-barcode] 13.0/stock_barcodes/i18n/stock_barcodes.pot\n"
 "X-Crowdin-File-ID: 5792\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2023-08-11 10:40\n"
+"PO-Revision-Date: 2023-08-11 12:21\n"
 
 #. module: stock_barcodes
 #: model:ir.model.fields,help:stock_barcodes.field_wiz_candidate_picking__state
@@ -220,7 +220,7 @@ msgstr ""
 #. module: stock_barcodes
 #: model:ir.model.fields.selection,name:stock_barcodes.selection__wiz_stock_barcodes_read_picking__picking_type_code__outgoing
 msgid "Customers"
-msgstr ""
+msgstr "Kunden"
 
 #. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_candidate_picking__product_uom_qty
@@ -280,7 +280,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_inventory__id
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_picking__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: stock_barcodes
 #: model:ir.model.fields,help:stock_barcodes.field_wiz_stock_barcodes_read_inventory__auto_lot
@@ -368,7 +368,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_inventory__lot_id
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_picking__lot_id
 msgid "Lot"
-msgstr ""
+msgstr "Losnummer"
 
 #. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_new_lot__lot_name
@@ -624,7 +624,7 @@ msgstr ""
 #. module: stock_barcodes
 #: model:ir.model,name:stock_barcodes.model_stock_picking
 msgid "Transfer"
-msgstr "Bewegung"
+msgstr "Lieferung vornehmen"
 
 #. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_picking__picking_type_code
