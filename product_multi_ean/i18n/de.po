@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-12 14:23+0000\n"
-"PO-Revision-Date: 2023-08-11 12:22\n"
+"PO-Revision-Date: 2023-08-11 16:12\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -90,7 +90,7 @@ msgstr ""
 #. module: product_multi_ean
 #: model:ir.model,name:product_multi_ean.model_product_template
 msgid "Product Template"
-msgstr ""
+msgstr "Produktvorlage"
 
 #. module: product_multi_ean
 #: model:ir.model.fields,field_description:product_multi_ean.field_product_ean13__sequence
