@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-barcode] 13.0/base_gs1_barcode/i18n/base_gs1_barcode.pot\n"
 "X-Crowdin-File-ID: 5788\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2023-08-14 16:29\n"
+"PO-Revision-Date: 2023-08-15 12:21\n"
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.ACTIVE_POTENCY
@@ -318,7 +318,7 @@ msgstr "Dezimaltrenner"
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode__name
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #. module: base_gs1_barcode
 #: model:ir.model.fields,field_description:base_gs1_barcode.field_gs1_barcode__display_name
