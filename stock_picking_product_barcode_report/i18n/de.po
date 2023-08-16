@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-barcode] 13.0/stock_picking_product_barcode_report/i18n/stock_picking_product_barcode_report.pot\n"
 "X-Crowdin-File-ID: 5802\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2023-08-16 10:26\n"
+"PO-Revision-Date: 2023-08-16 12:18\n"
 
 #. module: stock_picking_product_barcode_report
 #: model_terms:ir.ui.view,arch_db:stock_picking_product_barcode_report.report_label_barcode
@@ -181,7 +181,7 @@ msgstr ""
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__uom_id
 msgid "Unit of Measure"
-msgstr ""
+msgstr "Mengeneinheit"
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__wizard_id
