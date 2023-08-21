@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-barcode] 13.0/base_gs1_barcode/i18n/base_gs1_barcode.pot\n"
 "X-Crowdin-File-ID: 5788\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2023-08-16 10:26\n"
+"PO-Revision-Date: 2023-08-21 10:23\n"
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.ACTIVE_POTENCY
@@ -303,7 +303,7 @@ msgstr "Datentyp"
 #. module: base_gs1_barcode
 #: model:ir.model.fields.selection,name:base_gs1_barcode.selection__gs1_barcode__data_type__date
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
 #. module: base_gs1_barcode
 #: model:gs1_barcode,name:base_gs1_barcode.DATE_PRODUCTION
