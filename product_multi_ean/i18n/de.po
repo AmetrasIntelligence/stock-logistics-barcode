@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-12 14:23+0000\n"
-"PO-Revision-Date: 2023-08-14 16:29\n"
+"PO-Revision-Date: 2023-08-24 10:35\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -85,7 +85,7 @@ msgstr "EAN13-Liste eines Produkts."
 #: model:ir.model,name:product_multi_ean.model_product_product
 #: model:ir.model.fields,field_description:product_multi_ean.field_product_ean13__product_id
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 #. module: product_multi_ean
 #: model:ir.model,name:product_multi_ean.model_product_template
