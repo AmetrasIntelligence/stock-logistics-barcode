@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-barcode] 13.0/stock_barcodes/i18n/stock_barcodes.pot\n"
 "X-Crowdin-File-ID: 5792\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2023-08-21 12:27\n"
+"PO-Revision-Date: 2023-08-24 10:35\n"
 
 #. module: stock_barcodes
 #: model:ir.model.fields,help:stock_barcodes.field_wiz_candidate_picking__state
@@ -500,7 +500,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_inventory__product_id
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_picking__product_id
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 #. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read__product_qty
