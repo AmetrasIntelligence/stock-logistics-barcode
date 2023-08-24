@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-barcode] 13.0/barcodes_generator_product/i18n/barcodes_generator_product.pot\n"
 "X-Crowdin-File-ID: 5786\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2023-08-16 08:59\n"
+"PO-Revision-Date: 2023-08-24 10:35\n"
 
 #. module: barcodes_generator_product
 #: model:ir.model.fields,help:barcodes_generator_product.field_product_template__generate_type
@@ -69,7 +69,7 @@ msgstr ""
 #. module: barcodes_generator_product
 #: model:ir.model,name:barcodes_generator_product.model_product_product
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 #. module: barcodes_generator_product
 #: model:ir.model,name:barcodes_generator_product.model_product_template
