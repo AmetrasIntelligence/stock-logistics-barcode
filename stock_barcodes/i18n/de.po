@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-barcode] 13.0/stock_barcodes/i18n/stock_barcodes.pot\n"
 "X-Crowdin-File-ID: 5792\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2023-08-24 10:35\n"
+"PO-Revision-Date: 2024-01-31 15:51\n"
 
 #. module: stock_barcodes
 #: model:ir.model.fields,help:stock_barcodes.field_wiz_candidate_picking__state
@@ -28,7 +28,16 @@ msgid " * Draft: The transfer is not confirmed yet. Reservation doesn't apply.\n
 "(b) The shipping policy is \"When all products are ready\": all product have been reserved.\n"
 " * Done: The transfer has been processed.\n"
 " * Cancelled: The transfer has been cancelled."
-msgstr ""
+msgstr " *Entwurf: Die Lieferung ist noch nicht bestätigt. Die Reservierung trifft nicht zu.\n"
+" * Wartet auf einen anderen Vorgang: Diese Lieferung wartet auf einen anderen Vorgang, bevor sie bereit ist.\n"
+" * Wartet: Die Lieferung wartet auf die Verfügbarkeit einiger Produkte.\n"
+"(a) Die Auslieferungsbedingung lautet \"So bald wie möglich\": Es konnte kein Produkt reserviert werden.\n"
+"(b) Die Auslieferungsbedingung lautet \"Wenn alle Produkte bereit sind\": Es konnten nicht alle Produkte reserviert werden.\n"
+" * Bereit: Die Lieferung ist bereit, bearbeitet zu werden.\n"
+"(a) Die Auslieferungsbedingung lautet \"So bald wie möglich\": Mindestens ein Produkt wurde reserviert.\n"
+"(b) Die Auslieferungsbedingung lautet \"Wenn alle Produkte bereit sind\": Alle Produkte wurden reserviert.\n"
+" * Erledigt: Die Lieferung wurde bearbeitet.\n"
+" * Storniert: Die Lieferung wurde storniert."
 
 #. module: stock_barcodes
 #: model_terms:ir.ui.view,arch_db:stock_barcodes.view_stock_barcodes_new_lot
